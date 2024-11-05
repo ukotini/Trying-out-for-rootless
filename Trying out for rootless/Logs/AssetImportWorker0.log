@@ -15,7 +15,7 @@ C:/Users/sande/Trying-out-for-rootless/Trying out for rootless
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60017
+51366
 Successfully changed project path to: C:/Users/sande/Trying-out-for-rootless/Trying out for rootless
 C:/Users/sande/Trying-out-for-rootless/Trying out for rootless
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,18 +49,18 @@ C:/Users/sande/Trying-out-for-rootless/Trying out for rootless
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [24344]  Target information:
+Player connection [26548]  Target information:
 
-Player connection [24344]  * "[IP] 192.168.227.1 [Port] 0 [Flags] 2 [Guid] 3100989994 [EditorId] 3100989994 [Version] 1048832 [Id] WindowsEditor(7,Lenovo1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [26548]  * "[IP] 192.168.227.1 [Port] 0 [Flags] 2 [Guid] 2423704753 [EditorId] 2423704753 [Version] 1048832 [Id] WindowsEditor(7,Lenovo1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [24344]  * "[IP] 192.168.40.1 [Port] 0 [Flags] 2 [Guid] 3100989994 [EditorId] 3100989994 [Version] 1048832 [Id] WindowsEditor(7,Lenovo1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [26548]  * "[IP] 192.168.40.1 [Port] 0 [Flags] 2 [Guid] 2423704753 [EditorId] 2423704753 [Version] 1048832 [Id] WindowsEditor(7,Lenovo1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [24344]  * "[IP] 172.29.78.88 [Port] 0 [Flags] 2 [Guid] 3100989994 [EditorId] 3100989994 [Version] 1048832 [Id] WindowsEditor(7,Lenovo1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [26548]  * "[IP] 172.29.78.88 [Port] 0 [Flags] 2 [Guid] 2423704753 [EditorId] 2423704753 [Version] 1048832 [Id] WindowsEditor(7,Lenovo1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [24344] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [24344] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [26548] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [26548] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-Refreshing native plugins compatible for Editor in 13.14 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 12.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.43f1 (85497d293fa1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.43f1/Editor/Data/Resources/UnitySubsystems
@@ -76,46 +76,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.43f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.43f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.43f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.012718 seconds.
-- Loaded All Assemblies, in  0.371 seconds
+Registered in 0.019109 seconds.
+- Loaded All Assemblies, in  0.564 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.274 seconds
-Domain Reload Profiling: 642ms
-	BeginReloadAssembly (119ms)
+- Finished resetting the current domain, in  0.371 seconds
+Domain Reload Profiling: 931ms
+	BeginReloadAssembly (215ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (69ms)
-	LoadAllAssembliesAndSetupDomain (138ms)
-		LoadAssemblies (117ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (95ms)
+	LoadAllAssembliesAndSetupDomain (183ms)
+		LoadAssemblies (211ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (135ms)
-			TypeCache.Refresh (133ms)
-				TypeCache.ScanAssembly (119ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (180ms)
+			TypeCache.Refresh (178ms)
+				TypeCache.ScanAssembly (162ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (274ms)
+	FinalizeReload (371ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (226ms)
+		SetupLoadedEditorAssemblies (302ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (153ms)
-			ProcessInitializeOnLoadMethodAttributes (51ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (205ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -124,61 +124,61 @@ Domain Reload Profiling: 642ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-Symbol file data-00000253FC63FE20 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000022FD435FCF0 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000253FC63FE20 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file data-0000022FF7D71740 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000253FC63FE20 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000022FF5E44940 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000253FC8AF820 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file data-0000022FF7D71740 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000253FC63FE20 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-0000022FF7D71740 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000253FC63FE20 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file data-0000022FD435FCF0 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000253FD2F9420 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file data-0000022FF5F37430 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000253FD2FFE30 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file data-0000022FF7D71740 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000253DABAF010 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000022FD4BC4700 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000253DABCFE20 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000022FF5F37430 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000253DABE8630 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file data-0000022FF7D71740 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000253DA484E00 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000022FD48C9020 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000253FD2FFE30 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-0000022FD4378500 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000253FC661030 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-0000022FF6468820 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000253DAA3A450 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000022FF6468820 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000253DABF2A40 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000022FD48A3E50 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000253DA484E00 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000022FF6A34010 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000253DA484E00 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file data-0000022FF6A34010 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000253DA4BD810 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000022FD3CEA290 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000253DABF2A40 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000022FF5F3F440 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000253FC66E040 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file data-0000022FD3D52FF0 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000253B91CE6C0 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000022FF5F3F440 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000253DA4D5620 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file data-0000022FD4378500 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000253DA4D5620 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000022FD4378500 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000253FC6A5650 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000022FD3D52FF0 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000253DB2C88E0 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file data-0000022FF6AEA010 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000253FC6A5650 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-0000022FF6B3CE20 doesn't match image C:\Users\sande\Trying-out-for-rootless\Trying out for rootless\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.745 seconds
+- Loaded All Assemblies, in  1.148 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -186,47 +186,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.718 seconds
-Domain Reload Profiling: 1458ms
-	BeginReloadAssembly (183ms)
+- Finished resetting the current domain, in  1.053 seconds
+Domain Reload Profiling: 2196ms
+	BeginReloadAssembly (239ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (459ms)
-		LoadAssemblies (379ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (773ms)
+		LoadAssemblies (645ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (188ms)
-			TypeCache.Refresh (167ms)
-				TypeCache.ScanAssembly (150ms)
-			ScanForSourceGeneratedMonoScriptInfo (15ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (718ms)
+		AnalyzeDomain (279ms)
+			TypeCache.Refresh (242ms)
+				TypeCache.ScanAssembly (218ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1053ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (564ms)
+		SetupLoadedEditorAssemblies (829ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (75ms)
-			ProcessInitializeOnLoadAttributes (438ms)
-			ProcessInitializeOnLoadMethodAttributes (25ms)
-			AfterProcessingInitializeOnLoad (11ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (653ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (19ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 5.50 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (16ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 10.26 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (54.5 KB). Loaded Objects now: 3557.
-Memory consumption went from 119.9 MB to 119.8 MB.
-Total: 5.399200 ms (FindLiveObjects: 0.325200 ms CreateObjectMapping: 0.127000 ms MarkObjects: 4.682000 ms  DeleteObjects: 0.264100 ms)
+Unloading 19 unused Assets / (54.9 KB). Loaded Objects now: 3557.
+Memory consumption went from 120.1 MB to 120.0 MB.
+Total: 6.715000 ms (FindLiveObjects: 0.430000 ms CreateObjectMapping: 0.168700 ms MarkObjects: 5.895800 ms  DeleteObjects: 0.218600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -244,121 +244,241 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1136476.336368 seconds.
-  path: Assets/Exterior_props/ShedProps/TheGamingPeople/Courtyard_and_Entrance/Entry2/Entry 2 Modular FBX/HangingCandleStick/HangingCandlestickTextures/Emissiv_AlbedoTransparency.png
-  artifactKey: Guid(ba85430513d7a6443b3393b757131353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Exterior_props/ShedProps/TheGamingPeople/Courtyard_and_Entrance/Entry2/Entry 2 Modular FBX/HangingCandleStick/HangingCandlestickTextures/Emissiv_AlbedoTransparency.png using Guid(ba85430513d7a6443b3393b757131353) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '073cf4d30ac0b5d330955b625ddca615') in 0.067170 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 16.729418 seconds.
-  path: Assets/Exterior_props/ShedProps/TheGamingPeople/Courtyard_and_Entrance/Entry2/Entry 2 Modular FBX/HangingCandleStick/HangingCandlestickTextures/Emissiv_AO.png
-  artifactKey: Guid(418fe8a3544df7e4483064281340704b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Exterior_props/ShedProps/TheGamingPeople/Courtyard_and_Entrance/Entry2/Entry 2 Modular FBX/HangingCandleStick/HangingCandlestickTextures/Emissiv_AO.png using Guid(418fe8a3544df7e4483064281340704b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '72eaa1e47396384b8f7c7d9c2bca7b42') in 0.011280 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 12.644378 seconds.
+  Time since last request: 1203446.163302 seconds.
   path: Assets/Exterior_props/ShedProps/TheGamingPeople/Courtyard_and_Entrance/Entry2/Entry 2 Modular FBX/HangingCandleStick/HangingCandlestickTextures/Emissiv_MetallicSmoothness.png
   artifactKey: Guid(e3537daff8990874f9f19e931d0de281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Exterior_props/ShedProps/TheGamingPeople/Courtyard_and_Entrance/Entry2/Entry 2 Modular FBX/HangingCandleStick/HangingCandlestickTextures/Emissiv_MetallicSmoothness.png using Guid(e3537daff8990874f9f19e931d0de281) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a5d750a20bf4bcb0963e10cab270533a') in 0.039436 seconds
+ -> (artifact id: 'a3af4cee0378dfa5627a75cf393fe47a') in 0.208979 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 14.427788 seconds.
-  path: Assets/Exterior_props/ShedProps/TheGamingPeople/Courtyard_and_Entrance/Entry2/Entry 2 Modular FBX/HangingCandleStick/HangingCandlestickTextures/Emissiv_Normal.png
-  artifactKey: Guid(1a73f9fb9744c2c4d9afcc7a2ca8cf87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Exterior_props/ShedProps/TheGamingPeople/Courtyard_and_Entrance/Entry2/Entry 2 Modular FBX/HangingCandleStick/HangingCandlestickTextures/Emissiv_Normal.png using Guid(1a73f9fb9744c2c4d9afcc7a2ca8cf87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 30.677164 seconds.
+  path: Assets/Exterior_props/ShedProps/TheGamingPeople/Courtyard_and_Entrance/Entry2/Entry 2 Modular FBX/Pillar/Pilars.mat
+  artifactKey: Guid(c7b5986e82509a444a0caf188cded91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exterior_props/ShedProps/TheGamingPeople/Courtyard_and_Entrance/Entry2/Entry 2 Modular FBX/Pillar/Pilars.mat using Guid(c7b5986e82509a444a0caf188cded91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '5154316804349a0acfbd02aed3a1791b') in 0.010059 seconds
+ -> (artifact id: 'd0e389ddca41b7b717da9e94575fcbe2') in 0.139487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 13.817050 seconds.
+  path: Assets/Exterior_props/ShedProps/TheGamingPeople/Courtyard_and_Entrance/Entry2/Entry 2 Modular FBX/Pillar/Pillar Texture/Entry 2 Pilar_Pilars_AO.png
+  artifactKey: Guid(94b3d86d7f74b544480e77a2c5d3453e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exterior_props/ShedProps/TheGamingPeople/Courtyard_and_Entrance/Entry2/Entry 2 Modular FBX/Pillar/Pillar Texture/Entry 2 Pilar_Pilars_AO.png using Guid(94b3d86d7f74b544480e77a2c5d3453e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1b70880272f838692e48761108f037b6') in 0.027600 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 14.399223 seconds.
-  path: Assets/Exterior_props/ShedProps/TheGamingPeople/Courtyard_and_Entrance/Entry2/Entry 2 Modular FBX/HangingCandleStick/HangingCandlestickTextures/Glass_AlbedoTransparency.png
-  artifactKey: Guid(76b66812642c34a47bdc45a5a1d19680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Exterior_props/ShedProps/TheGamingPeople/Courtyard_and_Entrance/Entry2/Entry 2 Modular FBX/HangingCandleStick/HangingCandlestickTextures/Glass_AlbedoTransparency.png using Guid(76b66812642c34a47bdc45a5a1d19680) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 2.526630 seconds.
+  path: Assets/Exterior_props/ShedProps/TheGamingPeople/Courtyard_and_Entrance/Entry2/Entry 2 Modular FBX/SmallWood/Small Woods.mat
+  artifactKey: Guid(d27f8d98f80fb214d92bac6632fd82e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exterior_props/ShedProps/TheGamingPeople/Courtyard_and_Entrance/Entry2/Entry 2 Modular FBX/SmallWood/Small Woods.mat using Guid(d27f8d98f80fb214d92bac6632fd82e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '243580e1c0b11ea5ce1176a7a358e70d') in 0.017505 seconds
+ -> (artifact id: '7c2a55c0d95c8173aaaad838842e266b') in 0.041224 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 5
 ========================================================================
 Received Import Request.
-  Time since last request: 12.382167 seconds.
-  path: Assets/Exterior_props/ShedProps/TheGamingPeople/Courtyard_and_Entrance/Entry2/Entry 2 Modular FBX/HangingCandleStick/HangingCandlestickTextures/Glass_AO.png
-  artifactKey: Guid(35f99418d6b6b9e45b9668e5208e6d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Exterior_props/ShedProps/TheGamingPeople/Courtyard_and_Entrance/Entry2/Entry 2 Modular FBX/HangingCandleStick/HangingCandlestickTextures/Glass_AO.png using Guid(35f99418d6b6b9e45b9668e5208e6d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 4.462226 seconds.
+  path: Assets/Exterior_props/ShedProps/TheGamingPeople/Courtyard_and_Entrance/Entry2/Entry 2 Modular FBX/Walls/Entry 2 Wall 2.fbx
+  artifactKey: Guid(0e16ae2873465cc44b0dcfd795cc9bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exterior_props/ShedProps/TheGamingPeople/Courtyard_and_Entrance/Entry2/Entry 2 Modular FBX/Walls/Entry 2 Wall 2.fbx using Guid(0e16ae2873465cc44b0dcfd795cc9bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '9571e8c2ba784419a67c1d86537cd16f') in 0.021134 seconds
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6c55b78f7db8569c1cff2a2564e035f8') in 0.334581 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 11
 ========================================================================
 Received Import Request.
-  Time since last request: 12.280532 seconds.
-  path: Assets/Exterior_props/ShedProps/TheGamingPeople/Courtyard_and_Entrance/Entry2/Entry 2 Modular FBX/HangingCandleStick/HangingCandlestickTextures/Glass_MetallicSmoothness.png
-  artifactKey: Guid(5752faba51eb2de4aa70b863fb762a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Exterior_props/ShedProps/TheGamingPeople/Courtyard_and_Entrance/Entry2/Entry 2 Modular FBX/HangingCandleStick/HangingCandlestickTextures/Glass_MetallicSmoothness.png using Guid(5752faba51eb2de4aa70b863fb762a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Exterior_props/ShedProps/TheGamingPeople/Courtyard_and_Entrance/Entry2/Entry 2 Modular FBX/Walls/Wall 4.mat
+  artifactKey: Guid(ef1649e0484bb8946ab2d13d38dfcca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exterior_props/ShedProps/TheGamingPeople/Courtyard_and_Entrance/Entry2/Entry 2 Modular FBX/Walls/Wall 4.mat using Guid(ef1649e0484bb8946ab2d13d38dfcca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '4e683e09c50f76bc7bdaf436aa45c299') in 0.025025 seconds
+ -> (artifact id: '3090efe9a45176b961eba9b1e277e65a') in 0.031040 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 11.386063 seconds.
-  path: Assets/Exterior_props/ShedProps/TheGamingPeople/Courtyard_and_Entrance/Entry2/Entry 2 Modular FBX/HangingCandleStick/HangingCandlestickTextures/Glass_Normal.png
-  artifactKey: Guid(3aa2234220fd2844592e5e755806e55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Exterior_props/ShedProps/TheGamingPeople/Courtyard_and_Entrance/Entry2/Entry 2 Modular FBX/HangingCandleStick/HangingCandlestickTextures/Glass_Normal.png using Guid(3aa2234220fd2844592e5e755806e55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '102bc7bd713689033cbad9f49b22190b') in 0.010083 seconds
+  Time since last request: 16.049788 seconds.
+  path: Assets/Exterior_props/ShedProps/TheGamingPeople/Courtyard_and_Entrance/Timeline2CTR.playable
+  artifactKey: Guid(06bd1832f31ec1645be78217f68086ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exterior_props/ShedProps/TheGamingPeople/Courtyard_and_Entrance/Timeline2CTR.playable using Guid(06bd1832f31ec1645be78217f68086ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '141fba2030d4c98d8c7a4cb840a8913c') in 0.009225 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 11.236829 seconds.
-  path: Assets/Exterior_props/ShedProps/TheGamingPeople/Courtyard_and_Entrance/Entry2/Entry 2 Modular FBX/HangingCandleStick/HangingCandlestickTextures/Hanging Candlestick_AlbedoTransparency.png
-  artifactKey: Guid(207d6f98be57c9b448d2da61b5c24eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Exterior_props/ShedProps/TheGamingPeople/Courtyard_and_Entrance/Entry2/Entry 2 Modular FBX/HangingCandleStick/HangingCandlestickTextures/Hanging Candlestick_AlbedoTransparency.png using Guid(207d6f98be57c9b448d2da61b5c24eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 25.418741 seconds.
+  path: Assets/Exterior_props/ShedProps/TheGamingPeople/ShedBridgeTools_and_Fences/Prefabs/Barrel.prefab
+  artifactKey: Guid(d33067713c4ea684297c7899a427215b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exterior_props/ShedProps/TheGamingPeople/ShedBridgeTools_and_Fences/Prefabs/Barrel.prefab using Guid(d33067713c4ea684297c7899a427215b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '75e4bc24cbd98bfd70e63adcde649274') in 0.016900 seconds
+ -> (artifact id: 'bc698ceb4f9c627b3dcf9f9a3831a85b') in 0.072670 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 47
 ========================================================================
 Received Import Request.
-  Time since last request: 10.821121 seconds.
-  path: Assets/Exterior_props/ShedProps/TheGamingPeople/Courtyard_and_Entrance/Entry2/Entry 2 Modular FBX/HangingCandleStick/HangingCandlestickTextures/Hanging Candlestick_AO.png
-  artifactKey: Guid(72d8801e4212b2242b0f6209f3a9c7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Exterior_props/ShedProps/TheGamingPeople/Courtyard_and_Entrance/Entry2/Entry 2 Modular FBX/HangingCandleStick/HangingCandlestickTextures/Hanging Candlestick_AO.png using Guid(72d8801e4212b2242b0f6209f3a9c7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Exterior_props/ShedProps/TheGamingPeople/ShedBridgeTools_and_Fences/Prefabs/Fence1.prefab
+  artifactKey: Guid(ddf4f45c150785f4685630ead1bdbe25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exterior_props/ShedProps/TheGamingPeople/ShedBridgeTools_and_Fences/Prefabs/Fence1.prefab using Guid(ddf4f45c150785f4685630ead1bdbe25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '251af4c3e654ad0dda2142784cbad474') in 0.017197 seconds
+ -> (artifact id: '3f7e5385de53d794c17c819e4c6fe5a8') in 0.056327 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 15
 ========================================================================
 Received Import Request.
-  Time since last request: 11.744522 seconds.
-  path: Assets/Exterior_props/ShedProps/TheGamingPeople/Courtyard_and_Entrance/Entry2/Entry 2 Modular FBX/HangingCandleStick/HangingCandlestickTextures/Hanging Candlestick_MetallicSmoothness.png
-  artifactKey: Guid(fbe5c506c8d8fff4ba27e691ff1de7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Exterior_props/ShedProps/TheGamingPeople/Courtyard_and_Entrance/Entry2/Entry 2 Modular FBX/HangingCandleStick/HangingCandlestickTextures/Hanging Candlestick_MetallicSmoothness.png using Guid(fbe5c506c8d8fff4ba27e691ff1de7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Exterior_props/ShedProps/TheGamingPeople/ShedBridgeTools_and_Fences/Prefabs/Fence4.prefab
+  artifactKey: Guid(361e3d5cdb2eadb43a7e7bacd9accd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exterior_props/ShedProps/TheGamingPeople/ShedBridgeTools_and_Fences/Prefabs/Fence4.prefab using Guid(361e3d5cdb2eadb43a7e7bacd9accd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '77828257e8ea0d14db8bab930f0c6cec') in 0.017887 seconds
+ -> (artifact id: 'f0685a398e9c9faf334c7de9c22da0e5') in 0.048878 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 15
 ========================================================================
 Received Import Request.
-  Time since last request: 11.137799 seconds.
-  path: Assets/Exterior_props/ShedProps/TheGamingPeople/Courtyard_and_Entrance/Entry2/Entry 2 Modular FBX/HangingCandleStick/HangingCandlestickTextures/Hanging Candlestick_Normal.png
-  artifactKey: Guid(4ed941f0c894ca54d9555ef3b5184dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Exterior_props/ShedProps/TheGamingPeople/Courtyard_and_Entrance/Entry2/Entry 2 Modular FBX/HangingCandleStick/HangingCandlestickTextures/Hanging Candlestick_Normal.png using Guid(4ed941f0c894ca54d9555ef3b5184dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Exterior_props/ShedProps/TheGamingPeople/ShedBridgeTools_and_Fences/Prefabs/GasCan.prefab
+  artifactKey: Guid(8b780173080be1e4e86f28dd1ad13d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exterior_props/ShedProps/TheGamingPeople/ShedBridgeTools_and_Fences/Prefabs/GasCan.prefab using Guid(8b780173080be1e4e86f28dd1ad13d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b9ef57330d59eb44962f6740308d738c') in 0.014200 seconds
+ -> (artifact id: '62e7cacb84e0ef741f61c58e6b3a74bf') in 0.096680 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Exterior_props/ShedProps/TheGamingPeople/ShedBridgeTools_and_Fences/Prefabs/Gripper.prefab
+  artifactKey: Guid(070cc6e0f08b39248b99298eabf38f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exterior_props/ShedProps/TheGamingPeople/ShedBridgeTools_and_Fences/Prefabs/Gripper.prefab using Guid(070cc6e0f08b39248b99298eabf38f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '864b040736862a8b8518d2b5de193ff6') in 0.122753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Exterior_props/ShedProps/TheGamingPeople/ShedBridgeTools_and_Fences/Prefabs/Hammer.prefab
+  artifactKey: Guid(8648ac77aa011604c9b885644314c5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exterior_props/ShedProps/TheGamingPeople/ShedBridgeTools_and_Fences/Prefabs/Hammer.prefab using Guid(8648ac77aa011604c9b885644314c5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3f95000f13c55d8a68090030b354d3ed') in 0.120853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Exterior_props/ShedProps/TheGamingPeople/ShedBridgeTools_and_Fences/Prefabs/Fork.prefab
+  artifactKey: Guid(a0c500ad6d9391749b34c0f9f753987c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exterior_props/ShedProps/TheGamingPeople/ShedBridgeTools_and_Fences/Prefabs/Fork.prefab using Guid(a0c500ad6d9391749b34c0f9f753987c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '06be4af213192d51f65c3a4fd3988930') in 0.167730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 7.156216 seconds.
+  path: Assets/Exterior_props/ShedProps/TheGamingPeople/ShedBridgeTools_and_Fences/Prefabs/LittleBox2.prefab
+  artifactKey: Guid(b0c9e37732491f14ebf148fca8134993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exterior_props/ShedProps/TheGamingPeople/ShedBridgeTools_and_Fences/Prefabs/LittleBox2.prefab using Guid(b0c9e37732491f14ebf148fca8134993) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3773617988c7361b5aef50f6de45c43f') in 0.033351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.011742 seconds.
+  path: Assets/Exterior_props/ShedProps/TheGamingPeople/ShedBridgeTools_and_Fences/Prefabs/PotsStacked.prefab
+  artifactKey: Guid(aef445cdc1ce6fc4f93a867a9d9109ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exterior_props/ShedProps/TheGamingPeople/ShedBridgeTools_and_Fences/Prefabs/PotsStacked.prefab using Guid(aef445cdc1ce6fc4f93a867a9d9109ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6524d8b228992784f35a174d3ef3eabd') in 0.038098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.060442 seconds.
+  path: Assets/Exterior_props/ShedProps/TheGamingPeople/ShedBridgeTools_and_Fences/Prefabs/Rope.prefab
+  artifactKey: Guid(4f3403a0a166e444194da6bcb1f3cb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exterior_props/ShedProps/TheGamingPeople/ShedBridgeTools_and_Fences/Prefabs/Rope.prefab using Guid(4f3403a0a166e444194da6bcb1f3cb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9960b74a45d3c901c454694e6fe88462') in 0.021473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 1.480579 seconds.
+  path: Assets/Exterior_props/ShedProps/TheGamingPeople/ShedBridgeTools_and_Fences/Prefabs/ScissorsForGrass.prefab
+  artifactKey: Guid(723f84f13904f514ab8f3ca3d5b57c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exterior_props/ShedProps/TheGamingPeople/ShedBridgeTools_and_Fences/Prefabs/ScissorsForGrass.prefab using Guid(723f84f13904f514ab8f3ca3d5b57c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e45640fdb52c603bc4f7d8e66c6853c7') in 0.050462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 0.017719 seconds.
+  path: Assets/Exterior_props/ShedProps/TheGamingPeople/ShedBridgeTools_and_Fences/Prefabs/ScrewDriver 2.prefab
+  artifactKey: Guid(e6ec50b9e4978294bada9a364235c3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exterior_props/ShedProps/TheGamingPeople/ShedBridgeTools_and_Fences/Prefabs/ScrewDriver 2.prefab using Guid(e6ec50b9e4978294bada9a364235c3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f93a4ce42a9eea4fb00f0bd454294422') in 0.038515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.020482 seconds.
+  path: Assets/Exterior_props/ShedProps/TheGamingPeople/ShedBridgeTools_and_Fences/Prefabs/ScrewDriver 4.prefab
+  artifactKey: Guid(14d7a570754dc3240ba1b0a465ba37e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exterior_props/ShedProps/TheGamingPeople/ShedBridgeTools_and_Fences/Prefabs/ScrewDriver 4.prefab using Guid(14d7a570754dc3240ba1b0a465ba37e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd269ccc11c46d5a0ceef8032156d74e7') in 0.035102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.636698 seconds.
+  path: Assets/Exterior_props/ShedProps/TheGamingPeople/ShedBridgeTools_and_Fences/Prefabs/ShedLOD1.prefab
+  artifactKey: Guid(b518e4023293f6747bb776b6384a8f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exterior_props/ShedProps/TheGamingPeople/ShedBridgeTools_and_Fences/Prefabs/ShedLOD1.prefab using Guid(b518e4023293f6747bb776b6384a8f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1a3e4f7e18b2e660bd11bdbe22d6814e') in 0.349652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 129
+========================================================================
+Received Import Request.
+  Time since last request: 0.510461 seconds.
+  path: Assets/Exterior_props/ShedProps/TheGamingPeople/ShedBridgeTools_and_Fences/Prefabs/TinCan.prefab
+  artifactKey: Guid(796e2d04825afee4086cad4a9e3fac1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exterior_props/ShedProps/TheGamingPeople/ShedBridgeTools_and_Fences/Prefabs/TinCan.prefab using Guid(796e2d04825afee4086cad4a9e3fac1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3255da3cebb84173be38af5907dfb27f') in 0.058605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.007115 seconds.
+  path: Assets/Exterior_props/ShedProps/TheGamingPeople/ShedBridgeTools_and_Fences/Prefabs/WaterCan.prefab
+  artifactKey: Guid(d70a765f5f6bb1d49accfaf2d1a6384c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exterior_props/ShedProps/TheGamingPeople/ShedBridgeTools_and_Fences/Prefabs/WaterCan.prefab using Guid(d70a765f5f6bb1d49accfaf2d1a6384c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ae9b6d0d1205b53dda59dd3281b7c7af') in 0.057368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.006724 seconds.
+  path: Assets/Exterior_props/ShedProps/TheGamingPeople/ShedBridgeTools_and_Fences/Prefabs/WoodPart2.prefab
+  artifactKey: Guid(bbd108b8f14d6044d92129ecf1eb2140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exterior_props/ShedProps/TheGamingPeople/ShedBridgeTools_and_Fences/Prefabs/WoodPart2.prefab using Guid(bbd108b8f14d6044d92129ecf1eb2140) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a724908b224ebc5ca06d173c5c24125f') in 0.023978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
